@@ -8,4 +8,26 @@ Run `npm run lint` to attempt to detect errors in your repository.
 Use `output()` and `await input()` from `./src/js/scripts.js` to allow the user to interact with the console.
 To run the console, launch `./src/index.html`.
 
-Add your README content here.
+Project Title: Cashier Program
+
+Project description:
+
+User is prompted to input total cost of goods, total cash payment and a discount code between 0 & 5. Discount codes are applied to the total via switch case statement.
+User is provided total change, or message that insufficient payment was provided. 
+
+Tech stack:
+Javascript console provided by instructor
+
+Known bugs:
+Inputing nothing when prompted for discount code returns default case, but also correct change
+
+User manual:
+Follow input instructions when prompted
+
+Credits & Acknowledgements:
+
+Project Manager - Elias Assefa
+Product Manager - Elias Assefa
+Senior Engineer - Elias Assefa
+Junior Engineer - Elias Assefa
+Scrum Master - Elias Assefa

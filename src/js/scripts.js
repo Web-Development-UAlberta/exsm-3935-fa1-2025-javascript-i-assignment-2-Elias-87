@@ -3,10 +3,19 @@ async function main() {
   // This is where the code you're actually experimenting with goes.
 
 let tots = await input("Please enter your total cost of goods: ");
+if (tots == null) {
+  tots = 0
+}
 let moola = await input("Please enter your total cash payment: ");
+if (moola == null) {
+  tots = 0
+}
 let disco = await input("Please enter discount code: ");
 
-switch (disco) {  
+switch (disco) {
+  case null:
+    tots = tots * 1;
+    break;
   case "0":
     tots = tots * 1;
     break;
